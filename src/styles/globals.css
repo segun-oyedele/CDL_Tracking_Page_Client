@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: rgba(28, 88, 148, 0.15)!important;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  height: initial !important;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.bg-blue-p {
+  background-color: #1C5894;
+}
+
+.color-blue-p {
+  color: #1C5894;
+}
+
+
+.inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.inter-m {
+  font-weight: 500;
+}
+
+.inter-sb {
+  font-weight: 600;
+}
+
+.inter-b {
+  font-weight: 700;
+}
+
+.inter-eb {
+  font-weight: 800;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1230px;
+  width: 95%;
+}
+
+.home__hero.dev {
+  background: url('/img/hero_bg.png') no-repeat center center;
+  background-size: cover;
+}
+
+.home__hero.prod {
+  background: url('/Xcelerator/trackingclient/img/hero_bg.png') no-repeat center center;
+  background-size: cover;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background: linear-gradient(98.41deg, #155096 33.09%, #bc2e2e 100%);
+}
+
+.fill-green-update {
+  fill: #166534;
+}
+
+.ant-timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.ant-timeline-item-tail {
+  display: none !important;
+}
+
+.ant-timeline-item-tail {
+  border-left: 2px solid #BC2E2E;
+}
+
+.ant-timeline .ant-timeline-item-tail {
+  position: absolute;
+  top: 25px !important;
+  left: 4px;
+  height: calc(100% - 10px);
+  border-left: 4px solid #fff !important;
+}
+
+.ant-timeline-item-head-custom {
+  position: absolute;
+  top: 5.5px;
+  left: 5px;
+  width: auto;
+  height: auto;
+  margin-top: 0;
+  padding: 3px 1px;
+  line-height: 1;
+  text-align: center;
+  border: 0;
+  border-radius: 0;
+  transform: translate(-50%,-50%);
+  background: #1C5894 !important;
+  z-index: 1;
+}
+.ant-timeline-item-head-blue {
+  color: #fff !important;
+}
+
+div ul.ant-timeline>li:last-child>div:first-child {
+  border: 0!important;
+}
+
+.ant-timeline-item:last-child {
+  padding-bottom: 0!important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;  
+}
